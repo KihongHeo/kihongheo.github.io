@@ -21,6 +21,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/publication.js" defer></script>
     <script src="js/talk.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84705103-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-84705103-1');
+    </script>
   </head>
   <body data-spy="scroll">
     <?php include_once("analyticstracking.php") ?>
@@ -69,8 +77,8 @@
           </td>
         </tr>
       </table>
-
-      <h3 id="vita">Vita</h3>
+      <div id="vita"></div>
+      <h3>Vita</h3>
       <ul>
         <li> Jul. 2017 - Present, Post-doctoral Researcher, University of Pennsylvania (Advisor: <a href="http://www.cis.upenn.edu/~mhnaik">Prof. Mayur Naik</a>)</li>
         <li> Mar. 2009 - Aug. 2017, Ph.D., Computer Science & Engineering, Seoul National University (Advisor: <a href="http://ropas.snu.ac.kr/~kwang">Prof. Kwangkeun Yi</a>)</li>
@@ -93,7 +101,8 @@
         <li>Semantic-based Software Security</li>
       </ul>
 
-      <h3 id="publications">Publications</h3>
+      <div id="publications"></div>
+      <h3>Publications</h3>
       <div id="publication-section"></div>
       <h3 id="talk">Talks</h3>
       <div id="talk-section"></div>
