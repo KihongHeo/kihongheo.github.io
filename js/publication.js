@@ -11,7 +11,7 @@ var rajeev = "<a href=\"http://www.cis.upenn.edu/~alur/home.html\">Rajeev Alur</
 var mukund = "<a href=\"https://www.cis.upenn.edu/~rmukund\">Mukund Raghothaman</a>"
 var sulekha = "<a href=\"http://www.seas.upenn.edu/~sulekha/\">Sulekha Kulkarni</a>"
 var hakjoo = "<a href=\"http://prl.korea.ac.kr/~pronto/home\">Hakjoo Oh</a>"
-var hongseok = "<a href=\"http://www.cs.ox.ac.uk/people/hongseok.yang/Public/Home.html\">Hongseok Yang</a>"
+var hongseok = "<a href=\"https://sites.google.com/view/hongseokyang/home\">Hongseok Yang</a>"
 var woosuk = "<a href=\"http://ropas.snu.ac.kr/~wslee\">Woosuk Lee</a>"
 var kwang = "<a href=\"http://ropas.snu.ac.kr/~kwang\">Kwangkeun Yi</a>"
 
@@ -21,7 +21,7 @@ var pubs = [
     author: [kihong, woosuk, "Pardis Pashakhanloo", mayur],
     venue: '<a href="https://www.sigsac.org/ccs/CCS2018">CCS 2018: ACM Conference on Computer and Communications Security</a>',
     year: 2018,
-    toapear: "(to appear)"
+    toappear: "(to appear)"
   },
   {
     title: "User-Guided Program Reasoning using Bayesian Inference",
