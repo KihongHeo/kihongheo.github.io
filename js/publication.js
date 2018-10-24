@@ -22,6 +22,7 @@ var pubs = [
     venue: '<a href="https://www.sigsac.org/ccs/CCS2018">CCS 2018: ACM Conference on Computer and Communications Security</a>',
     year: 2018,
     paper: "paper/ccs18.pdf",
+    slides: "slide/ccs18-slides.pdf",
     code: "https://github.com/aspire-project/chisel"
   },
   {
