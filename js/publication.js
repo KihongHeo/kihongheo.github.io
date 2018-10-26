@@ -9,7 +9,6 @@ var kihong = "<strong>Kihong Heo</strong>"
 var mayur = "<a href=\"http://www.cis.upenn.edu/~mhnaik\">Mayur Naik</a>"
 var rajeev = "<a href=\"http://www.cis.upenn.edu/~alur/home.html\">Rajeev Alur</a>"
 var mukund = "<a href=\"https://www.cis.upenn.edu/~rmukund\">Mukund Raghothaman</a>"
-var sulekha = "<a href=\"http://www.seas.upenn.edu/~sulekha/\">Sulekha Kulkarni</a>"
 var hakjoo = "<a href=\"http://prl.korea.ac.kr/~pronto/home\">Hakjoo Oh</a>"
 var hongseok = "<a href=\"https://sites.google.com/view/hongseokyang/home\">Hongseok Yang</a>"
 var woosuk = "<a href=\"http://ropas.snu.ac.kr/~wslee\">Woosuk Lee</a>"
@@ -27,7 +26,7 @@ var pubs = [
   },
   {
     title: "User-Guided Program Reasoning using Bayesian Inference",
-    author: [mukund, sulekha, kihong, mayur],
+    author: [mukund, "Sulekha Kulkarni", kihong, mayur],
     venue: '<a href="https://conf.researchr.org/home/pldi-2018">PLDI 2018: Programming Language Design and Implementation</a>',
     year: 2018,
     paper: "paper/pldi18-rakuhena.pdf",
@@ -45,7 +44,7 @@ var pubs = [
   },
   {
     title: "Difflog: Beyond Deductive Methods in Program Analysis",
-    author: [mukund, sulekha, "Richard Zhang", "Xujie Si", kihong, woosuk, mayur],
+    author: [mukund, "Sulekha Kulkarni", "Richard Zhang", "Xujie Si", kihong, woosuk, mayur],
     venue: '<a href="http://ml4p.org">ML4P: 1st Workshop on Machine Learning for Programming</a>',
     year: 2018,
     paper: "paper/ml4p18.pdf"
