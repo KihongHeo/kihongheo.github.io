@@ -1,10 +1,3 @@
-var dblp = "<a href=\"http://dblp.uni-trier.de/pers/hd/h/Heo:Kihong\">dblp</a>";
-var google = "<a href=\"https://scholar.google.co.kr/citations?hl=ko&view_op="
-  + "list_works&gmla=AJsN-F7M5Wr90VD58_PZujJyLJ_36LmrOIrqC5gQFSRtTOL-AjAXHlIH"
-  + "e1MK6RGMmHe2pgBgT7oL6VdqcQgo5LvNOCRlOs5TitZuGNZtBrT_o0DVN_ACGZjuKudtpaDv"
-  + "uYtS98mrOMNP&user=bWY6MmgAAAAJ\">Google Scholar</a>";
-var link = "<h5>(" + dblp + ", " + google + ")</h5>";
-
 var kihong = "<strong>Kihong Heo</strong>"
 var mayur = "<a href=\"http://www.cis.upenn.edu/~mhnaik\">Mayur Naik</a>"
 var rajeev = "<a href=\"http://www.cis.upenn.edu/~alur/home.html\">Rajeev Alur</a>"
@@ -18,6 +11,7 @@ var pubs = [
   {
     title: "Effective Program Debloating via Reinforcement Learning",
     author: [kihong, woosuk, "Pardis Pashakhanloo", mayur],
+    cofirst: [0, 1],
     venue: '<a href="https://www.sigsac.org/ccs/CCS2018">CCS 2018: ACM Conference on Computer and Communications Security</a>',
     year: 2018,
     paper: "paper/ccs18.pdf",
@@ -160,10 +154,16 @@ var pubs = [
 
 function write() {
   var section = document.getElementById("publication-section");
-  var html = link + "\n<ul>";
+  var html = "[* Authors contributed equally]<br>"
+  html += "<ul>";
   pubs.forEach(function(entry) {
     html += "<li>" + entry['title'] + "</li>";
-    entry.author[entry.author.length - 1] = "and, " + entry['author'].slice(-1)[0];
+    entry.author[entry.author.length - 1] = "and " + entry.author[entry.author.length - 1];
+    if ('cofirst' in entry) {
+      entry['cofirst'].forEach(function(idx) {
+        entry['author'][idx] = entry['author'][idx] + "*";
+      })
+    }
     html += entry['author'].join(', ')
     html += "<br>";
     html += entry.venue;
