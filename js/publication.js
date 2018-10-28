@@ -154,7 +154,7 @@ var pubs = [
 
 function write() {
   var section = document.getElementById("publication-section");
-  var html = "[* Authors contributed equally]<br>"
+  var html = "[*Authors contributed equally.]<br>"
   html += "<ul>";
   pubs.forEach(function(entry) {
     html += "<li>" + entry['title'] + "</li>";
