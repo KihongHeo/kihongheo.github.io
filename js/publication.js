@@ -1,15 +1,7 @@
-var dblp = "<a href=\"http://dblp.uni-trier.de/pers/hd/h/Heo:Kihong\">dblp</a>";
-var google = "<a href=\"https://scholar.google.co.kr/citations?hl=ko&view_op="
-  + "list_works&gmla=AJsN-F7M5Wr90VD58_PZujJyLJ_36LmrOIrqC5gQFSRtTOL-AjAXHlIH"
-  + "e1MK6RGMmHe2pgBgT7oL6VdqcQgo5LvNOCRlOs5TitZuGNZtBrT_o0DVN_ACGZjuKudtpaDv"
-  + "uYtS98mrOMNP&user=bWY6MmgAAAAJ\">Google Scholar</a>";
-var link = "<h5>(" + dblp + ", " + google + ")</h5>";
-
 var kihong = "<strong>Kihong Heo</strong>"
 var mayur = "<a href=\"http://www.cis.upenn.edu/~mhnaik\">Mayur Naik</a>"
 var rajeev = "<a href=\"http://www.cis.upenn.edu/~alur/home.html\">Rajeev Alur</a>"
 var mukund = "<a href=\"https://www.cis.upenn.edu/~rmukund\">Mukund Raghothaman</a>"
-var sulekha = "<a href=\"http://www.seas.upenn.edu/~sulekha/\">Sulekha Kulkarni</a>"
 var hakjoo = "<a href=\"http://prl.korea.ac.kr/~pronto/home\">Hakjoo Oh</a>"
 var hongseok = "<a href=\"https://sites.google.com/view/hongseokyang/home\">Hongseok Yang</a>"
 var woosuk = "<a href=\"http://ropas.snu.ac.kr/~wslee\">Woosuk Lee</a>"
@@ -19,6 +11,7 @@ var pubs = [
   {
     title: "Effective Program Debloating via Reinforcement Learning",
     author: [kihong, woosuk, "Pardis Pashakhanloo", mayur],
+    cofirst: [0, 1],
     venue: '<a href="https://www.sigsac.org/ccs/CCS2018">CCS 2018: ACM Conference on Computer and Communications Security</a>',
     year: 2018,
     paper: "paper/ccs18.pdf",
@@ -27,7 +20,7 @@ var pubs = [
   },
   {
     title: "User-Guided Program Reasoning using Bayesian Inference",
-    author: [mukund, sulekha, kihong, mayur],
+    author: [mukund, "Sulekha Kulkarni", kihong, mayur],
     venue: '<a href="https://conf.researchr.org/home/pldi-2018">PLDI 2018: Programming Language Design and Implementation</a>',
     year: 2018,
     paper: "paper/pldi18-rakuhena.pdf",
@@ -45,7 +38,7 @@ var pubs = [
   },
   {
     title: "Difflog: Beyond Deductive Methods in Program Analysis",
-    author: [mukund, sulekha, "Richard Zhang", "Xujie Si", kihong, woosuk, mayur],
+    author: [mukund, "Sulekha Kulkarni", "Richard Zhang", "Xujie Si", kihong, woosuk, mayur],
     venue: '<a href="http://ml4p.org">ML4P: 1st Workshop on Machine Learning for Programming</a>',
     year: 2018,
     paper: "paper/ml4p18.pdf"
@@ -161,10 +154,16 @@ var pubs = [
 
 function write() {
   var section = document.getElementById("publication-section");
-  var html = link + "\n<ul>";
+  var html = "[*Authors contributed equally.]<br>"
+  html += "<ul>";
   pubs.forEach(function(entry) {
     html += "<li>" + entry['title'] + "</li>";
-    entry.author[entry.author.length - 1] = "and, " + entry['author'].slice(-1)[0];
+    entry.author[entry.author.length - 1] = "and " + entry.author[entry.author.length - 1];
+    if ('cofirst' in entry) {
+      entry['cofirst'].forEach(function(idx) {
+        entry['author'][idx] = entry['author'][idx] + "*";
+      })
+    }
     html += entry['author'].join(', ')
     html += "<br>";
     html += entry.venue;

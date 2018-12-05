@@ -17,6 +17,9 @@
       padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
+    .middle {
+      vertical-align: middle;
+    }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/publication.js" defer></script>
@@ -76,25 +79,30 @@
             Post-doctoral Researcher<br>
             <a href="http://www.cis.upenn.edu">Computer and Information Science</a><br>
             <a href="http://www.upenn.edu">University of Pennsylvania</a><br>
-            [<a href="cv.pdf">CV</a>]
+            <div class="middle">
+              <a href="cv.pdf"><img src="icons/cv.png" width="25" /></a>
+              <a href="https://dblp.uni-trier.de/pers/hd/h/Heo:Kihong"><img src="icons/dblp.png" width="25" /></a>
+              <a href="https://scholar.google.co.kr/citations?hl=ko&view_op=list_works&gmla=AJsN-F7M5Wr90VD58_PZujJyLJ_36LmrOIrqC5gQFSRtTOL-AjAXHlIHe1MK6RGMmHe2pgBgT7oL6VdqcQgo5LvNOCRlOs5TitZuGNZtBrT_o0DVN_ACGZjuKudtpaDvuYtS98mrOMNP&user=bWY6MmgAAAAJ"><img src="icons/scholar.jpg" width="25" /></a>
+              <a href="https://github.com/KihongHeo"><img src="icons/github.png" width="25" /></a>
+            </div>
           </td>
         </tr>
       </table>
       <div id="vita"></div>
       <h3>Vita</h3>
       <ul>
-        <li> Jul. 2017 - Present, Post-doctoral Researcher, University of Pennsylvania (Advisor: <a href="http://www.cis.upenn.edu/~mhnaik">Prof. Mayur Naik</a>)</li>
-        <li> Mar. 2009 - Aug. 2017, Ph.D., Computer Science & Engineering, Seoul National University (Advisor: <a href="http://ropas.snu.ac.kr/~kwang">Prof. Kwangkeun Yi</a>)</li>
-        Thesis: <a href="paper/thesis.pdf">Selectively Sensitive Static Analysis by Impact Pre-analysis and Machine Learning</a>
+        <li> Jul. 2017 - Present, Post-doctoral Researcher, University of Pennsylvania (Advisor: <a href="http://www.cis.upenn.edu/~mhnaik">Mayur Naik</a>)</li>
+        <li> Mar. 2009 - Aug. 2017, Ph.D., Computer Science & Engineering, Seoul National University (Advisor: <a href="http://ropas.snu.ac.kr/~kwang">Kwangkeun Yi</a>)</li>
+<!--        Thesis: <a href="paper/thesis.pdf">Selectively Sensitive Static Analysis by Impact Pre-analysis and Machine Learning</a>
         (<i style="font-size:18px;color:goldenrod" class="fa">&#xf091;</i> <b><a href="https://cse.snu.ac.kr/en/node/28378">Excellent Degree Thesis Award</a></b>)<br>
-        <li> Apr. 2017 - Jun. 2017, Research Scientist (contingent), Facebook</li>
+-->        <li> Apr. 2017 - Jun. 2017, Research Scientist (contingent), Facebook</li>
         <!--        <li> Sep. 2011 - Feb. 2012, Visiting student, The Hong Kong University of Science & Technology (Advisor: <a href="http://www.cse.ust.hk/~hunkim">Prof. Sunghun Kim</a>)</li> -->
         <li> Mar. 2005 - Feb. 2009, B.S., Computer Science & Engineering, Seoul National University </li>
       </ul>
       <h3>News</h3>
       <ul>
-        <li>We release our program debloating system <a href="paper/ccs18.pdf">Chisel</a> as open source. <a href="https://github.com/aspire-project/chisel">Try it!</a></li>
-        <li>Our paper <i><a href="paper/ccs18.pdf">Effective Program Debloating via Reinforcement Learning</a></i> will appear at <a href="https://ccs2018.sigsac.org">CCS 2018</a>. Learn more about the <a href="https://aspire-project.github.io">ASPIRE project</a>.</li>
+        <li>Oct 2018. We release our program debloating system <a href="paper/ccs18.pdf">Chisel</a> as open source. <a href="https://github.com/aspire-project/chisel">Try it!</a></li>
+        <li>Aug 2018. Our paper <i><a href="paper/ccs18.pdf">Effective Program Debloating via Reinforcement Learning</a></i> will appear at <a href="https://ccs2018.sigsac.org">CCS 2018</a>. Learn more about the <a href="https://aspire-project.github.io">ASPIRE project</a>.</li>
       </ul>
       <h3> Research Interest </h3>
       My research aims to develop program reasoning systems for safe and reliable software. In particular, I am working on the following topics:
@@ -117,7 +125,7 @@
       <h3 id="software">Software</h3>
       I have contributed to the following open-source software:
       <ul>
-        <li><a href="https://github.com/aspire-project/chisel">Chise: an automated program debloating system</a>
+        <li><a href="https://github.com/aspire-project/chisel">Chisel: an automated program debloating system</a>
         <li><a href="https://github.com/ropas/sparrow">Sparrow: a static analyzer for C program</a></li>
         <li><a href="https://github.com/petablox-project/petablox">Petablox: declarative program analysis framework for Big Code</a></li>
         <li><a href="https://github.com/facebook/infer">Infer: a static analyzer for Java, C, C++, and Objective-C</a></li>
@@ -129,6 +137,10 @@
       <ul>
         <li>TA, Program Analysis. 2010, Spring. Seoul National University</li>
         <li>TA, Programming Language. 2009, Fall. Seoul National University</li>
+      </ul>
+      <h3>Awards</h3>
+      <ul>
+        <li><a href="https://cse.snu.ac.kr/en/node/28378">Excellent Degree Thesis Award</a>, Department of Computer Science and Engineering, Seoul National University</li>
       </ul>
       <h3 id="contact">Contact</h3>
       kheo (at) cis.upenn.edu<br>
