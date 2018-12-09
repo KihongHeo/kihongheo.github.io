@@ -1,12 +1,12 @@
 var project = [
-  {
+  /*  {
     title: "ASPIRE: Transformations for Reducing Software Complexity",
     link: "https://aspire.cis.upenn.edu"
   },
   {
     title: "Petablox: Declarative Program Analysis for Big Code",
     link: "http://petablox.org"
-  },
+  },*/
   {
     title: "Inferbo: Infer-based buffer overrun analyzer",
     link: "https://github.com/facebook/infer",

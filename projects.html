@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kihong Heo's Homepage</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+      padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+    <script src="js/projects.js" defer></script>
+  </head>
+  <body data-spy="scroll">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html#home">Home</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="index.html#talks">Talks</a></li>
+            <li><a href="trips.html#trips">Trips</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <h3 id="projects">Current Projects</h3>
+      <div class="container">
+      <h4>CHISEL: General-purpose software debloating</h4>
+      The size and complexity of modern software have been rapidly increasing, thereby causing security vulnerabilities as well as
+      performance degradation. The goal of this project is to build an automatic program debloating system to reverse this trend.
+      Unlike traditional approaches such as code optimization, our system aggressively removes undesired functionalities and customizes
+      the original program according to a given high-level specification. The project is addressing
+      a multitude of research problems such as how to specify the desired behavior,
+      how to efficiently debloat programs in language-specific and language-independent
+      ways, and what correctness guarantees to provide.<br>
+      <img src="images/chisel-system.png" alt="Chisel System Diagram" style="width:70%;" class="center-block">
+      <h5>Papers: [<a href="paper/ccs18.pdf">CCS 2018</a>]</h5>
+      <h5>Links: [<a href="https://aspire-project.github.io">Project Page</a>]
+        [<a href="https://github.com/aspire-project/chisel">Tool</a>]</h5>
+      <br>
+      <h4>PETABLOX: AI-based program analysis framework</h4>
+      This project seeks to achieve a quantum leap in accuracy of static program analyses that target discovering deep semantic bugs
+      and security vulnearibilities in large C/C++/JAVA programs.
+      Even though a variety of techniques have significantly enhanced the performance of program analyzers,
+      traditional systems has been limited in their accuracy due to the fundamental reason, i.e., undecidability.
+      My research has tackled this limitation by incorporating external information such as user feedback.
+      The key insight is to rank analysis alarms by performing
+      inference on a conventional graphical model (e.g., a Bayesian network or a Markov
+      logic network) that quantifies the incompleteness in individual steps of reasoning
+      of the analysis.
+      <img src="images/petablox-system.png" alt="Petablox System Diagram" style="width:70%;" class="center-block">
+      <h5>Papers: [<a href="paper/pldi18-rakuhena.pdf">PLDI 2018</a>]</h5>
+      <h5>Links: [<a href="https://petablox-project.github.io">Project Page</a>]
+        [<a href="https://github.com/petablox-project/petablox">Tool</a>]</h5>
+      <br>
+
+      <h4>EUPHONY: A probabilistic model-guided program synthesizer</h4>
+      A key challenge in program synthesis concerns how to efficiently search for the desired program in the space of
+      possible programs. We propose a general approach to accelerate search-based program synthesis by biasing
+      the search towards likely programs. Our approach targets a standard formulation, syntax-guided synthesis (SyGuS),
+      by extending the grammar of possible programs with a probabilistic model dictating the likelihood of each program.
+      We develop a weighted search algorithm to efficiently enumerate programs in order of their likelihood.
+      We also propose a method based on transfer learning that enables to effectively learn a powerful model, called probabilistic higher order grammar,
+      from known solutions in a domain. We have implemented our approach in a tool called Euphony and evaluate it on SyGuS benchmark problems from a variety of domains.
+      <img src="images/euphony-system.png" alt="Euphony System Diagram" style="width:70%;" class="center-block">
+      <h5>Papers: [<a href="paper/pldi18-lehealna.pdf">PLDI 2018</a>]</h5>
+      <h5>Links: [<a href="https://github.com/wslee/euphony">Tool</a>]</h5>
+      </div>
+      <h3>Former Projects</h3>
+      <div id="project-section"></div>
+    </div> <!-- /container
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
