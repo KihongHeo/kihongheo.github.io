@@ -71,7 +71,8 @@ function write() {
       html += " [<a href=\"" + entry.video + "\">video</a>]";
     if ('korean' in entry)
       html += " " + korean;
-    html += "</li>";
+    html += "</li>"
+    html += "<br>";
   })
   section.innerHTML = html + "</ul>";
 }
