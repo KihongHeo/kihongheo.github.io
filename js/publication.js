@@ -9,6 +9,14 @@ var kwang = "<a href=\"http://ropas.snu.ac.kr/~kwang\">Kwangkeun Yi</a>"
 
 var pubs = [
   {
+    title: "Resource-aware Program Analysis via Online Abstraction Coarsening",
+    author: [kihong, hakjoo, hongseok],
+    venue: '<a href="https://2019.icse-conferences.org">ICSE 2019: 41st ACM/IEEE International Conference on Software Engineering</a>',    
+    year: 2019,
+    paper: "",
+    type: "conference"
+  },
+  {
     title: "Effective Program Debloating via Reinforcement Learning",
     author: [kihong, woosuk, "Pardis Pashakhanloo", mayur],
     cofirst: [0, 1],
