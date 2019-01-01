@@ -1,6 +1,12 @@
 var korean = "&#x1F1F0;&#x1F1F7;"
 var talks = [
   {
+    title: "Continuous and Interactive Program Reasoning",
+    venue: "Korea University and Seoul National University",
+    date: "Dec 2018",
+    slides: "slide/drake18.pdf"
+  },
+  {
     title: "Program Transformation for Reducing Software Complexity",
     venue: "Korea University",
     date: "07/09/2018",
