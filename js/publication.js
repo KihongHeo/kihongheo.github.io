@@ -74,15 +74,6 @@ var pubs = [
     type: "journal"
   },
   {
-    title: "Automatically Generating Features for Learning Program Analysis Heuristics",
-    author: ["Kwonsoo Chae", hakjoo, kihong, hongseok],
-    venue: '<a href="http://2017.splashcon.org/track/splash-2017-OOPSLA">OOPSLA 2017: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</a>',
-    year: 2017,
-    paper: "paper/oopsla17-chohheya.pdf",
-    bib: "http://dblp.uni-trier.de/rec/bibtex/journals/pacmpl/ChaeOHY17",
-    type: "conference"
-  },
-  {
     title: "Machine-Learning-Guided Selectively Unsound Static Analysis",
     author: [kihong, hakjoo, kwang],
     venue: '<a href="http://icse2017.gatech.edu">ICSE 2017: The 39th International Conference on Software Engineering</a>',
@@ -90,6 +81,15 @@ var pubs = [
     paper: "paper/icse17-heohyi.pdf",
     bib: "http://dblp.uni-trier.de/rec/bibtex/conf/icse/HeoOY17",
     slides: "slide/icse17-slides.pdf",
+    type: "conference"
+  },
+  {
+    title: "Automatically Generating Features for Learning Program Analysis Heuristics",
+    author: ["Kwonsoo Chae", hakjoo, kihong, hongseok],
+    venue: '<a href="http://2017.splashcon.org/track/splash-2017-OOPSLA">OOPSLA 2017: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</a>',
+    year: 2017,
+    paper: "paper/oopsla17-chohheya.pdf",
+    bib: "http://dblp.uni-trier.de/rec/bibtex/journals/pacmpl/ChaeOHY17",
     type: "conference"
   },
   {
