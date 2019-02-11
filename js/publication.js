@@ -11,9 +11,9 @@ var pubs = [
   {
     title: "Resource-aware Program Analysis via Online Abstraction Coarsening",
     author: [kihong, hakjoo, hongseok],
-    venue: '<a href="https://2019.icse-conferences.org">ICSE 2019: 41st ACM/IEEE International Conference on Software Engineering</a>',    
+    venue: '<a href="https://2019.icse-conferences.org">ICSE 2019: 41st ACM/IEEE International Conference on Software Engineering</a>',
     year: 2019,
-    paper: "",
+    paper: "paper/icse19.pdf",
     type: "conference"
   },
   {
@@ -206,7 +206,7 @@ function itemize(entry) {
   }
   if ('bib' in entry) {
     html += " [<a href=\"" + entry.bib + "\">bib</a>]";
-  } 
+  }
   if ('slides' in entry) {
     html += " [<a href=\"" + entry.slides + "\">slides</a>]";
   }
