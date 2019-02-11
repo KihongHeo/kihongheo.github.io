@@ -25,6 +25,7 @@ var pubs = [
     paper: "paper/ccs18.pdf",
     slides: "slide/ccs18-slides.pdf",
     code: "https://github.com/aspire-project/chisel",
+    video: "https://youtu.be/8eRZKoLFakw",
     type: "conference"
   },
   {
@@ -205,11 +206,12 @@ function itemize(entry) {
   }
   if ('bib' in entry) {
     html += " [<a href=\"" + entry.bib + "\">bib</a>]";
-  } else {
-    html += " [bib]";
-  }
+  } 
   if ('slides' in entry) {
     html += " [<a href=\"" + entry.slides + "\">slides</a>]";
+  }
+  if ('video' in entry) {
+    html += " [<a href=\"" + entry.video + "\">video</a>]";
   }
   if ('code' in entry) {
     html += " [<a href=\"" + entry.code + "\">code</a>]";
