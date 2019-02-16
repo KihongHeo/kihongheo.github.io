@@ -1,0 +1,12 @@
+# this goes inside _config.yml. Change as required
+navigation:
+  - text: Home
+    url: /
+  - text: Projects
+    url: /projects.html
+  - text: Publications
+    url: /publications.html
+  - text: Talks
+    url: /talks.html
+  - text: Service
+    url: /service.html
