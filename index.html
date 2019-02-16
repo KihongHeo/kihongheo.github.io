@@ -1,162 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Kihong Heo's Homepage</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+layout: default
+title: Home
+logo_style: 'width: 280px; height: 70px;'
+---
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <style>
-    body {
-      padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    .middle {
-      vertical-align: middle;
-    }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/service.js" defer></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84705103-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-84705103-1');
-    </script>
-  </head>
-  <body data-spy="scroll">
-    <?php include_once("analyticstracking.php") ?>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!--                <a class="navbar-brand" href="#">Start Bootstrap</a> -->
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="publications.html#publications">Publications</a></li>
-            <li><a href="talks.html#talks">Talks</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<h1>Kihong Heo (허기홍)</h1>
+<table>
+  <tr>
+    <td width=40%><a href="pics.html"><img src="pics/2018.jpg" width="120" /></a></td>
+    <td>
+      Post-doctoral Researcher<br>
+      <a href="http://www.cis.upenn.edu">Computer and Information Science</a><br>
+      <a href="http://www.upenn.edu">University of Pennsylvania</a><br>
+      <div class="middle">
+        <a href="cv.pdf"><img src="icons/cv.png" width="25" /></a>
+        <a href="https://dblp.uni-trier.de/pers/hd/h/Heo:Kihong"><img src="icons/dblp.png" width="25" /></a>
+        <a href="https://scholar.google.co.kr/citations?hl=ko&view_op=list_works&gmla=AJsN-F7M5Wr90VD58_PZujJyLJ_36LmrOIrqC5gQFSRtTOL-AjAXHlIHe1MK6RGMmHe2pgBgT7oL6VdqcQgo5LvNOCRlOs5TitZuGNZtBrT_o0DVN_ACGZjuKudtpaDvuYtS98mrOMNP&user=bWY6MmgAAAAJ"><img src="icons/scholar.jpg" width="25" /></a>
+        <a href="https://github.com/KihongHeo"><img src="icons/github.png" width="25" /></a>
       </div>
-      <!-- /.container -->
-    </nav>
+    </td>
+  </tr>
+</table>
+<div id="vita"></div>
+<h3>Vita</h3>
+<table style="margin-left:23px">
+  <tr>
+    <td><font size="2">&#9679;</font></td>
+    <td style="padding-left:10px">Jul. 2017 - Present</td>
+    <td style="padding-left:20px">Post-doctoral Researcher, University of Pennsylvania (Advisor: <a href="http://www.cis.upenn.edu/~mhnaik">Mayur Naik</a>)</td>
+  </tr>
+  <tr>
+    <td><font size="2">&#9679;</font></td>
+    <td style="padding-left:10px">Mar. 2009 - Aug. 2017</td>
+    <td style="padding-left:20px">Ph.D., Computer Science & Engineering, Seoul National University (Advisor: <a href="http://ropas.snu.ac.kr/~kwang">Kwangkeun Yi</a>)</td>
+  </tr>
+  <tr>
+    <td><font size="2">&#9679;</font></td>
+    <td style="padding-left:10px">Apr. 2017 - Jun. 2017</td>
+    <td style="padding-left:20px">Research Scientist (contingent), Facebook</td>
+  </tr>
+  <tr>
+    <td><font size="2">&#9679;</font></td>
+    <td style="padding-left:10px">Mar. 2005 - Feb. 2009</td>
+    <td style="padding-left:20px">B.S., Computer Science & Engineering, Seoul National University</td>
+  </tr>
+</table>
+<h3>News</h3>
+<ul>
+  <li>Feb 2019. Our paper <i><b>Continuous Program Reasoning via Differential Bayesian Inference</b></i> will appear at <a href="https://conf.researchr.org/home/pldi-2019">PLDI 2019</a>.</li>
+  <li>Jan 2019. We upgraded <a href="https://github.com/aspire-project/chisel">Chisel</a> with the latest version of Clang. Try it!</li>
+  <li>Dec 2018. Our paper <i><b>Resource-aware Program Analysis via Online Abstraction Coarsening</b></i> will appear at <a href="https://2019.icse-conferences.org">ICSE 2019</a>.</li>
+  <li>Aug 2018. Our paper <i><b><a href="paper/ccs18.pdf">Effective Program Debloating via Reinforcement Learning</a></b></i> will appear at <a href="https://ccs2018.sigsac.org">CCS 2018</a>. Learn more about the <a href="https://aspire-project.github.io">ASPIRE project</a>.</li>
+</ul>
+<h3> Research Interest </h3>
+My research aims to develop program reasoning systems for safe and reliable software. In particular, I am working on the following topics:
+<ul>
+  <li>AI-based <b>program analysis</b> system for detecting deep semantic software bugs</li>
+  <li>General-purpose <b>program debloating</b> system for secure and efficient software</li>
+  <li>Scalable <b>program synthesis</b> system for automatic software generation and repair</li>
+</ul>
+For more information about my research, see <a href="projects.html">projects</a>, <a href="publications.html">publications</a>, and <a href="talks.html">talks</a>.
 
-    <!-- Page Content -->
-    <div class="container">
-      <h1>Kihong Heo (허기홍)</h1>
-      <table>
-        <tr>
-          <td width=40%><a href="pics.html"><img src="pics/2018.jpg" width="120" /></a></td>
-          <td>
-            Post-doctoral Researcher<br>
-            <a href="http://www.cis.upenn.edu">Computer and Information Science</a><br>
-            <a href="http://www.upenn.edu">University of Pennsylvania</a><br>
-            <div class="middle">
-              <a href="cv.pdf"><img src="icons/cv.png" width="25" /></a>
-              <a href="https://dblp.uni-trier.de/pers/hd/h/Heo:Kihong"><img src="icons/dblp.png" width="25" /></a>
-              <a href="https://scholar.google.co.kr/citations?hl=ko&view_op=list_works&gmla=AJsN-F7M5Wr90VD58_PZujJyLJ_36LmrOIrqC5gQFSRtTOL-AjAXHlIHe1MK6RGMmHe2pgBgT7oL6VdqcQgo5LvNOCRlOs5TitZuGNZtBrT_o0DVN_ACGZjuKudtpaDvuYtS98mrOMNP&user=bWY6MmgAAAAJ"><img src="icons/scholar.jpg" width="25" /></a>
-              <a href="https://github.com/KihongHeo"><img src="icons/github.png" width="25" /></a>
-            </div>
-          </td>
-        </tr>
-      </table>
-      <div id="vita"></div>
-      <h3>Vita</h3>
-      <table style="margin-left:23px">
-        <tr>
-          <td><font size="2">&#9679;</font></td>
-          <td style="padding-left:10px">Jul. 2017 - Present</td>
-          <td style="padding-left:20px">Post-doctoral Researcher, University of Pennsylvania (Advisor: <a href="http://www.cis.upenn.edu/~mhnaik">Mayur Naik</a>)</td>
-        </tr>
-        <tr>
-          <td><font size="2">&#9679;</font></td>
-          <td style="padding-left:10px">Mar. 2009 - Aug. 2017</td>
-          <td style="padding-left:20px">Ph.D., Computer Science & Engineering, Seoul National University (Advisor: <a href="http://ropas.snu.ac.kr/~kwang">Kwangkeun Yi</a>)</td>
-        </tr>
-        <tr>
-          <td><font size="2">&#9679;</font></td>
-          <td style="padding-left:10px">Apr. 2017 - Jun. 2017</td>
-          <td style="padding-left:20px">Research Scientist (contingent), Facebook</td>
-        </tr>
-        <tr>
-          <td><font size="2">&#9679;</font></td>
-          <td style="padding-left:10px">Mar. 2005 - Feb. 2009</td>
-          <td style="padding-left:20px">B.S., Computer Science & Engineering, Seoul National University</td>
-        </tr>
-      </table>
-      <h3>News</h3>
-      <ul>
-        <li>Feb 2019. Our paper <i>Continuous Program Reasoning via Differential Bayesian Inference</i> will appear at <a href="https://conf.researchr.org/home/pldi-2019">PLDI 2019</a>.</li>
-        <li>Jan 2019. We upgraded <a href="https://github.com/aspire-project/chisel">Chisel</a> with the latest version of Clang. Try it!</li>
-        <li>Dec 2018. Our paper <i>Resource-aware Program Analysis via Online Abstraction Coarsening</i> will appear at <a href="https://2019.icse-conferences.org">ICSE 2019</a>.</li>
-        <li>Aug 2018. Our paper <i><a href="paper/ccs18.pdf">Effective Program Debloating via Reinforcement Learning</a></i> will appear at <a href="https://ccs2018.sigsac.org">CCS 2018</a>. Learn more about the <a href="https://aspire-project.github.io">ASPIRE project</a>.</li>
-      </ul>
-      <h3> Research Interest </h3>
-      My research aims to develop program reasoning systems for safe and reliable software. In particular, I am working on the following topics:
-      <ul>
-        <li>AI-based <b>program analysis</b> system for detecting deep semantic software bugs</li>
-        <li>General-purpose <b>program debloating</b> system for secure and efficient software</li>
-        <li>Scalable <b>program synthesis</b> system for automatic software generation and repair</li>
-      </ul>
-      For more information about my research, see <a href="projects.html">projects</a>, <a href="publications.html">publications</a>, and <a href="talks.html">talks</a>.
-
-      <h3 id="software">Software</h3>
-      I have contributed to the following open-source software:
-      <ul>
-        <li><a href="https://github.com/aspire-project/chisel">Chisel: an automated program debloating system</a>
-        <li><a href="https://github.com/ropas/sparrow">Sparrow: a static analyzer for C program</a></li>
-        <li><a href="https://github.com/petablox-project/petablox">Petablox: declarative program analysis framework for Big Code</a></li>
-        <li><a href="https://github.com/facebook/infer">Infer: a static analyzer for Java, C, C++, and Objective-C</a></li>
-        <li><a href="https://github.com/wslee/euphony">Euphony: a probabilistic model-guided program synthesizer</a></li>
-      </ul>
-      <h3 id="service">Service</h3>
-      <div id="service-section"></div>
+<h3 id="software">Software</h3>
+I have contributed to the following open-source software:
+<ul>
+  <li><a href="https://github.com/aspire-project/chisel">Chisel: an automated program debloating system</a>
+    <li><a href="https://github.com/ropas/sparrow">Sparrow: a static analyzer for C program</a></li>
+    <li><a href="https://github.com/petablox-project/petablox">Petablox: declarative program analysis framework for Big Code</a></li>
+    <li><a href="https://github.com/facebook/infer">Infer: a static analyzer for Java, C, C++, and Objective-C</a></li>
+    <li><a href="https://github.com/wslee/euphony">Euphony: a probabilistic model-guided program synthesizer</a></li>
+</ul>
 <!--      <h3 id="teaching">Teaching</h3>
-      <ul>
-        <li>TA, Program Analysis. 2010, Spring. Seoul National University</li>
-        <li>TA, Programming Language. 2009, Fall. Seoul National University</li>
-      </ul>
+  <ul>
+  <li>TA, Program Analysis. 2010, Spring. Seoul National University</li>
+  <li>TA, Programming Language. 2009, Fall. Seoul National University</li>
+  </ul>
 -->
-      <h3>Awards</h3>
-      <ul>
-        <li><a href="https://cse.snu.ac.kr/en/node/28378">Excellent Degree Thesis Award</a>, Department of Computer Science and Engineering, Seoul National University</li>
-      </ul>
-      <h3 id="contact">Contact</h3>
-      kheo (at) cis.upenn.edu<br>
-      Computer and Information Science<br>
-      University of Pennsylvania<br>
-      Room 361, Levine Hall<br>
-      3330 Walnut St, Philadelphia, PA 19104, USA<br>
-    </div> <!-- /container -->
-    <div id="footer">
-      <div class="container">
-        <p class="muted credit" align="right"> Last updated: Jan 2019</p>
-      </div>
-    </div>
-    <!-- /.container -->
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<h3>Awards</h3>
+<ul>
+  <li><a href="https://cse.snu.ac.kr/en/node/28378">Excellent Degree Thesis Award</a>, Department of Computer Science and Engineering, Seoul National University</li>
+</ul>
+<h3 id="contact">Contact</h3>
+kheo (at) cis.upenn.edu<br>
+Computer and Information Science<br>
+University of Pennsylvania<br>
+Room 361, Levine Hall<br>
+3330 Walnut St, Philadelphia, PA 19104, USA<br>
