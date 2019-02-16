@@ -9,6 +9,13 @@ var kwang = "<a href=\"http://ropas.snu.ac.kr/~kwang\">Kwangkeun Yi</a>"
 
 var pubs = [
   {
+    title: "Continuous Program Reasoning via Differential Bayesian Inference",
+    author: [kihong, mukund, "Xujie Si", mayur],
+    venue: '<a href="https://conf.researchr.org/home/pldi-2019">PLDI 2019: Programming Language Design and Implementation</a>',
+    year: 2019,
+    type: "conference"
+  },
+  {
     title: "Resource-aware Program Analysis via Online Abstraction Coarsening",
     author: [kihong, hakjoo, hongseok],
     venue: '<a href="https://2019.icse-conferences.org">ICSE 2019: 41st ACM/IEEE International Conference on Software Engineering</a>',
