@@ -1,4 +1,6 @@
 # this goes inside _config.yml. Change as required
+baseurl: https://www.cis.upenn.edu/~kheo
+
 navigation:
   - text: Home
     url: /
