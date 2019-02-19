@@ -2,6 +2,7 @@
   author: ["Kihong Heo", "Mukund Raghothaman", "Xujie Si", "Mayur Naik"]
   venue: '<a href="https://conf.researchr.org/home/pldi-2019">PLDI 2019: Programming Language Design and Implementation</a>'
   year: 2019
+  paper: "paper/pldi19.pdf"
   type: "conference"
 
 - title: "Resource-aware Program Analysis via Online Abstraction Coarsening"
