@@ -33,7 +33,7 @@
   type: "conference"
 
 - title: "Accelerating Search-Based Program Synthesis Using Learned Probabilistic Models"
-  author: [Woosuk Lee, Kihong Heo, rajeev, Mayur Naik]
+  author: [Woosuk Lee, Kihong Heo, Rajeev Alur, Mayur Naik]
   venue: '<a href="https://conf.researchr.org/home/pldi-2018">PLDI 2018: Programming Language Design and Implementation</a>'
   year: 2018
   paper: "paper/pldi18-lehealna.pdf"
