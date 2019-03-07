@@ -1,4 +1,4 @@
-- title: "Continuous Program Reasoning via Differential Bayesian Inference"
+- title: "Continuously Reasoning about Programs via Differential Bayesian Inference"
   author: ["Kihong Heo", "Mukund Raghothaman", "Xujie Si", "Mayur Naik"]
   venue: '<a href="https://conf.researchr.org/home/pldi-2019">PLDI 2019: Programming Language Design and Implementation</a>'
   year: 2019
