@@ -23,6 +23,9 @@ logo_style: 'width: 280px; height: 70px;'
               {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %},
             {% endif %}
           {% endfor %}
+          {% if pub.award != nil %}
+            <br>&#127942; <b>{{pub.award}}</b>
+          {% endif %}
           <br>
           {{ pub.venue }}, {{ pub.year }}
           <br>

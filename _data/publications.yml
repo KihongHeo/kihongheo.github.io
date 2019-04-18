@@ -11,6 +11,7 @@
   year: 2019
   paper: "paper/icse19.pdf"
   type: "conference"
+  award: "Distinguished Paper Award"
 
 - title: "Effective Program Debloating via Reinforcement Learning"
   author: [Kihong Heo, Woosuk Lee, Pardis Pashakhanloo, Mayur Naik]
