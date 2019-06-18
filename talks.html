@@ -9,7 +9,7 @@ logo_style: 'width: 280px; height: 70px;'
   {% for talk in site.data.talks %}
   <li>{{ talk.title }}, {{ talk.venue }}, {{ talk.date }}.
     {% if talk.slides != nil %}
-    [<a href="{{ talk.slides }}">slides</a>]
+    [<a href="slides/{{ talk.slides }}">slides</a>]
     {% endif %}
     {% if talk.poster != nil %}
     [<a href="{{ talk.poster }}">poster</a>]
