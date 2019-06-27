@@ -11,6 +11,7 @@
   year: 2019
   paper: "pldi19.pdf"
   type: "conference"
+  award: "Distinguished Paper Award"
 
 - title: "Resource-aware Program Analysis via Online Abstraction Coarsening"
   author: ["Kihong Heo", "Hakjoo Oh", Hongseok Yang]
