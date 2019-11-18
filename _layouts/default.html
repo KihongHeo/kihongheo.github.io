@@ -54,9 +54,15 @@
             {% if page.url == link.url %}
             {% assign current = 'active' %}
             {% endif %}
-				    <li class="{{ current }}">
-              <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
-            </li>
+            {% if site.url == 'https://kihongheo.github.io/' %}
+              <li class="{{ current }}">
+                <a href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% else %} 
+              <li class="{{ current }}">
+                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
