@@ -1,6 +1,6 @@
 # this goes inside _config.yml. Change as required
-url: https://www.cis.upenn.edu
-baseurl: /~kheo
+url: http://kihongheo.github.io
+baseurl: ""
 
 navigation:
   - text: Home
