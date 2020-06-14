@@ -1,5 +1,5 @@
 # this goes inside _config.yml. Change as required
-url: http://kihongheo.github.io
+url: https://kihongheo.github.io
 baseurl: ""
 
 navigation:
@@ -13,3 +13,5 @@ navigation:
     url: /talks.html
   - text: Service
     url: /service.html
+  - text: ProsysLab
+    url: https://prosys.kaist.ac.kr
