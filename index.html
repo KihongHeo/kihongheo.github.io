@@ -100,16 +100,25 @@ For more information about my research, see <a href="projects.html">projects</a>
 <h3>Courses</h3>
 <ul>
   <li>IS593: Language-based Security, <a href="https://github.com/prosyslab-classroom/IS593-2020-Spring">2020S</a></li>
+  <li>IS893: Advanced Software Security, <a href="https://github.com/prosyslab-classroom/IS893-2020-Fall">2020F</a></li>
 </ul>
 
 <h3>Students</h3>
 <h5>Graduate Students</h5>
 <ul>
-  <li>Hyunsu Kim</li>
+  {% for student in site.data.students %}
+    {% if student.level == "grad" %}
+      <li><a href="{{student.site}}">{{student.name}}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 <h5>Undergrads</h5>
 <ul>
-  <li>Hyewon Ryu</li>
+  {% for student in site.data.students %}
+    {% if student.level == "under" %}
+      <li><a href="{{student.site}}">{{student.name}}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <h3 id="software">Software</h3>
