@@ -13,5 +13,7 @@ navigation:
     url: /talks.html
   - text: Service
     url: /service.html
+  - text: Misc
+    url: /misc.html
   - text: ProsysLab
     url: https://prosys.kaist.ac.kr
