@@ -13,6 +13,8 @@ navigation:
     url: /talks.html
   - text: Service
     url: /service.html
+  - text: Recruit
+    url: /recruit.html
   - text: Misc
     url: /misc.html
   - text: ProsysLab
