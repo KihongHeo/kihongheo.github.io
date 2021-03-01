@@ -6,6 +6,6 @@
   site: https://prosys.kaist.ac.kr/home/wooseokkang
   level: grad
 
-- name: Hyewon Ryu
-  site: https://prosys.kaist.ac.kr/home/hyewonryu
-  level: grad
+  # - name: Hyewon Ryu
+  #  site: https://prosys.kaist.ac.kr/home/hyewonryu
+  #  level: grad
