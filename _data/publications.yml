@@ -81,7 +81,7 @@
   slides: "icse17.pdf"
   type: "conference"
 
-- title: "Automatically Generating Features for Learning Program Analysis Heuristics"
+- title: "Automatically Generating Features for Learning Program Analysis Heuristics for C-Like Languages"
   author: ["Kwonsoo Chae", Hakjoo Oh, Kihong Heo, Hongseok Yang]
   venue: '<a href="http://2017.splashcon.org/track/splash-2017-OOPSLA">OOPSLA 2017: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications</a>'
   year: 2017
