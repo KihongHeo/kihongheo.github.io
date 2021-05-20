@@ -1,3 +1,10 @@
+- title: "Boosting Static Analysis Accuracy With Instrumented Test Executions"
+  author: ["Tianyi Chen", "Kihong Heo", "Mukund Raghothaman"]
+  venue: '<a href="https://2021.esec-fse.org">ESEC/FSE 2021: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</a>'
+  year: 2021
+  paper: "fse21.pdf"
+  type: "conference"
+
 - title: "Synthesizing Datalog programs using numerical relaxation"
   author: ["Xujie Si", "Mukund Raghothaman", "Kihong Heo", "Mayur Naik"]
   venue: '<a href="https://www.ijcai.org">IJCAI 2019: International Joint Conferences on Artificial Intelligence</a>'
