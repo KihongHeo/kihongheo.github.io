@@ -27,13 +27,13 @@ logo_style: 'width: 280px; height: 70px;'
             <br>&#127942; <b>{{pub.award}}</b>
           {% endif %}
           <br>
-          {{ pub.venue }}, {{ pub.year }}
+          <a href="{{ pub.venue_link }}">{{ pub.venue }}</a>, {{ pub.year }}
           <br>
           {% if pub.paper != nil %}
-            [<a href="papers/{{ pub.paper }}">paper</a>]
+            [<a href="publications/{{ pub.paper }}">paper</a>]
           {% endif %}
           {% if pub.full != nil %}
-            [<a href="papers/{{ pub.full }}">full-version</a>]
+            [<a href="publications/{{ pub.full }}">full-version</a>]
           {% endif %}
           {% if pub.bib != nil %}
             [<a href="{{ pub.bib }}">bib</a>]
@@ -69,14 +69,17 @@ logo_style: 'width: 280px; height: 70px;'
               {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %},
             {% endif %}
           {% endfor %}
+          {% if pub.misc != nil %}
+            <br><b>{{ pub.misc }}</b>
+          {% endif %}
           <br>
-          {{ pub.venue }}, {{ pub.year }}
+          <a href="{{ pub.venue_link }}">{{ pub.venue }}</a>, {{ pub.year }}
           <br>
           {% if pub.paper != nil %}
-            [<a href="papers/{{ pub.paper }}">paper</a>]
+            [<a href="publications/{{ pub.paper }}">paper</a>]
           {% endif %}
           {% if pub.full != nil %}
-            [<a href="papers/{{ pub.full }}">full-version</a>]
+            [<a href="publications/{{ pub.full }}">full-version</a>]
           {% endif %}
           {% if pub.bib != nil %}
             [<a href="{{ pub.bib }}">bib</a>]
@@ -113,13 +116,13 @@ logo_style: 'width: 280px; height: 70px;'
             {% endif %}
           {% endfor %}
           <br>
-          {{ pub.venue }}, {{ pub.year }}
+          <a href="{{ pub.venue_link }}">{{ pub.venue }}</a>, {{ pub.year }}
           <br>
           {% if pub.paper != nil %}
-            [<a href="papers/{{ pub.paper }}">paper</a>]
+            [<a href="publications/{{ pub.paper }}">paper</a>]
           {% endif %}
           {% if pub.full != nil %}
-            [<a href="papers/{{ pub.full }}">full-version</a>]
+            [<a href="publications/{{ pub.full }}">full-version</a>]
           {% endif %}
           {% if pub.bib != nil %}
             [<a href="{{ pub.bib }}">bib</a>]
