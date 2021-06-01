@@ -5,8 +5,9 @@ logo_style: 'width: 280px; height: 70px;'
 ---
 
 <h3> Service </h3>
+<h4>Program committee member</h4>
 <ul>
   {% for service in site.data.service %}
-  <li>{{ service.title }}, <a href="{{ service.link }}">{{ service.venue }}</a></li>
+  <li><a href="{{ service.link }}">{{ service.venue }}</a></li>
   {% endfor %}
 </ul>
