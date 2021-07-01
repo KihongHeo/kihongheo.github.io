@@ -6,6 +6,22 @@
   site: https://prosys.kaist.ac.kr/home/wooseokkang
   level: grad
 
+- name: Subin Kim
+  site:
+  level: under
+
+- name: Jaeho Kim
+  site:
+  level: under
+
+- name: Jongchan Park
+  site:
+  level: under
+
+- name: Byungho Son
+  site:
+  level: under
+
   # - name: Hyewon Ryu
   #  site: https://prosys.kaist.ac.kr/home/hyewonryu
   #  level: grad
