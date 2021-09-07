@@ -10,6 +10,10 @@
   site: https://prosys.kaist.ac.kr/home/taeeunkim
   level: grad
 
+- name: Seungwan Kwon
+  site: https://prosys.kaist.ac.kr/home/seungwankwon
+  level: grad
+
 - name: Subin Kim
   site:
   level: under
@@ -25,7 +29,3 @@
 - name: Byungho Son
   site:
   level: under
-
-  # - name: Hyewon Ryu
-  #  site: https://prosys.kaist.ac.kr/home/hyewonryu
-  #  level: grad
