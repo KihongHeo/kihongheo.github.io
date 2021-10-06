@@ -1,6 +1,10 @@
 - title: "PC member"
+  venue: "OOPSLA 2022: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+  link: "https://2022.splashcon.org/track/splash-2022-oopsla"
+
+- title: "PC member"
   venue: "PLDI 2022: ACM Conference on Programming Language Design and Implementation"
-  link: ""
+  link: "https://pldi22.sigplan.org"
 
 - title: "PC member"
   venue: "POPL 2022: ACM Symposium on Principles of Programming Languages"
