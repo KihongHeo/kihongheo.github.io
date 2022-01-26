@@ -22,8 +22,12 @@
   site:
   level: grad
 
-- name: Jaeho Kim
+- name: Sujin Jang
   site:
+  level: grad
+
+- name: Jaeho Kim
+  site: https://prosys.kaist.ac.kr/home/oojahooo
   level: under
 
 - name: Byungho Son
