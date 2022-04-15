@@ -15,7 +15,7 @@ navigation:
     url: /service.html
   - text: Recruitment
     url: /recruitment.html
-  - text: Misc
-    url: /misc.html
+  - text: Blog
+    url: /blog.html
   - text: ProsysLab
     url: https://prosys.kaist.ac.kr
