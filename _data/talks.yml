@@ -1,3 +1,10 @@
+- title: "Programming Language meets Machine Learning"
+  venue: "KAISTPL"
+  date: "Apr 2022"
+  slides: ["kaistpl-2022-1.pdf", "kaistpl-2022-2.pdf"]
+  korean: true
+  series: true
+
 - title: "Software Bloat: Problems and Automated Debloating Systems"
   venue: "Korean Computer System Society"
   date: "02/02/2021"
