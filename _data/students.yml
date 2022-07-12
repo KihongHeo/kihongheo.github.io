@@ -1,31 +1,27 @@
-- name: Hyunsu Kim
-  site: https://prosys.kaist.ac.kr/home/hyunsukim
-  level: grad
+- name: Yeonhee Ryou
+  site:
+  level: phd
 
 - name: Wooseok Kang
   site: https://prosys.kaist.ac.kr/home/wooseokkang
-  level: grad
+  level: master
 
 - name: Taeeun Kim
   site: https://prosys.kaist.ac.kr/home/taeeunkim
-  level: grad
+  level: master
 
 - name: Seungwan Kwon
   site: https://prosys.kaist.ac.kr/home/seungwankwon
-  level: grad
+  level: master
 
 - name: Jongchan Park
   site:
-  level: grad
+  level: master
 
 - name: Sujin Jang
   site:
-  level: grad
+  level: master
 
 - name: Jaeho Kim
   site: https://prosys.kaist.ac.kr/home/oojahooo
-  level: under
-
-- name: Haechan An
-  site:
-  level: under
+  level: master

@@ -110,22 +110,24 @@ For more information about my research, see <a href="projects.html">projects</a>
 </ul>
 
 <h3>Students</h3>
-<h5>Graduate Students</h5>
+<h5>Ph.D Students</h5>
 <ul>
   {% for student in site.data.students %}
-    {% if student.level == "grad" %}
+    {% if student.level == "phd" %}
       <li><a href="{{student.site}}">{{student.name}}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
-<h5>Undergrads</h5>
+<h5>Master Students</h5>
 <ul>
   {% for student in site.data.students %}
-    {% if student.level == "under" %}
+    {% if student.level == "master" %}
       <li><a href="{{student.site}}">{{student.name}}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
+See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
+
 <h3 id="software">Software</h3>
 I have contributed to the following open-source software:
 <ul>
