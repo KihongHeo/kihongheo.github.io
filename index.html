@@ -128,6 +128,42 @@ For more information about my research, see <a href="projects.html">projects</a>
 </ul>
 See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
 
+<h3> Professional Activities </h3>
+<h4>Program Committee Members</h4>
+<ul>
+  {% for year in (2019..2100) reversed %}
+  {% assign filtered = site.data.service | where_exp: "item", "item.year == year and item.title == 'PC member'" %}
+  {% if filtered != empty %}
+    <li>{{ year }}:
+      {% for item in filtered %}
+      {% if forloop.last %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>
+      {% else %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>,
+      {% endif %}
+      {% endfor %}
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<h4>Others</h4>
+<ul>
+  {% for year in (2019..2100) reversed %}
+  {% assign filtered = site.data.service | where_exp: "item", "item.year == year and item.title == 'Others'" %}
+  {% if filtered != empty %}
+    <li>{{ year }}:
+      {% for item in filtered %}
+      {% if forloop.last %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>
+      {% else %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>,
+      {% endif %}
+      {% endfor %}
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
 <h3 id="software">Software</h3>
 I have contributed to the following open-source software:
 <ul>
