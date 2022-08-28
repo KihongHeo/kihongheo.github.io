@@ -128,13 +128,13 @@ For more information about my research, see <a href="projects.html">projects</a>
 </ul>
 See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
 
-<h3> Professional Activities </h3>
+{% assign year = 'now' | date: "%Y" %}
+{% assign next_year = year | plus: 1 %}
+<h3>Professional Activities</h3>
 <h4>Program Committee Members</h4>
 <ul>
-  {% assign year = 'now' | date: "%Y" %}
-  {% assign next_year = year | plus: 1 %}
   {% for year in (2019..next_year) reversed %}
-  {% assign filtered = site.data.service | where_exp: "item", "item.year == year and item.title == 'PC member'" %}
+  {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'PC member'"%}
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
@@ -150,8 +150,8 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
 </ul>
 <h4>Others</h4>
 <ul>
-  {% for year in (2019..2100) reversed %}
-  {% assign filtered = site.data.service | where_exp: "item", "item.year == year and item.title == 'Others'" %}
+  {% for year in (2019..next_year) reversed %}
+  {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'Others'" %}
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
