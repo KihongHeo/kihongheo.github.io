@@ -1,5 +1,5 @@
 - name: Yeonhee Ryou
-  site:
+  site: https://yeonhee-ryou.github.io
   level: phd
 
 - name: Wooseok Kang
@@ -15,11 +15,11 @@
   level: master
 
 - name: Jongchan Park
-  site:
+  site: https://prosys.kaist.ac.kr/home/jongchanpark
   level: master
 
 - name: Sujin Jang
-  site:
+  site: https://sujin0529.github.io
   level: master
 
 - name: Jaeho Kim
