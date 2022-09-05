@@ -47,6 +47,9 @@ logo_style: 'width: 280px; height: 70px;'
           {% if pub.code != nil %}
             [<a href="{{ pub.code }}">code</a>]
           {% endif %}
+          {% if pub.project_page != nil %}
+            [<a href="{{ pub.project_page }}">project page</a>]
+          {% endif %}
         </li>
         <br>
       {% endif %}
