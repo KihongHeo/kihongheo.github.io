@@ -1,5 +1,10 @@
 - title: "PC member"
   venue: "PLDI"
+  year: 2023
+  link: "https://pldi23.sigplan.org"
+
+- title: "PC member"
+  venue: "PLDI"
   year: 2022
   link: "https://pldi22.sigplan.org"
 

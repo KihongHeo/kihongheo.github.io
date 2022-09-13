@@ -131,7 +131,7 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
 {% assign year = 'now' | date: "%Y" %}
 {% assign next_year = year | plus: 1 %}
 <h3>Professional Activities</h3>
-<h4>Program Committee Members</h4>
+<h5>Program Committee Members</h5>
 <ul>
   {% for year in (2019..next_year) reversed %}
   {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'PC member'"%}
@@ -148,7 +148,7 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
   {% endif %}
   {% endfor %}
 </ul>
-<h4>Others</h4>
+<h5>Others</h5>
 <ul>
   {% for year in (2019..next_year) reversed %}
   {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'Others'" %}
