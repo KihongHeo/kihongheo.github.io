@@ -1,4 +1,9 @@
 - title: "PC member"
+  venue: "ICSE"
+  year: 2024
+  link: "https://conf.researchr.org/home/icse-2024"
+
+- title: "PC member"
   venue: "PLDI"
   year: 2023
   link: "https://pldi23.sigplan.org"
