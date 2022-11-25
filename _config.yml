@@ -14,6 +14,8 @@ navigation:
   - text: Recruitment
     url: /recruitment.html
   - text: Blog
-    url: /blog.html
+    url: https://prosys.kaist.ac.kr/posts/
+  - text: PL-Wiki
+    url: https://github.com/prosyslab/pl-wiki/wiki
   - text: ProsysLab
     url: https://prosys.kaist.ac.kr
