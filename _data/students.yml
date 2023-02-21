@@ -2,10 +2,6 @@
   site: https://yeonhee-ryou.github.io
   level: phd
 
-- name: Wooseok Kang
-  site: https://prosys.kaist.ac.kr/home/wooseokkang
-  level: master
-
 - name: Taeeun Kim
   site: https://prosys.kaist.ac.kr/home/taeeunkim
   level: master
@@ -24,4 +20,12 @@
 
 - name: Jaeho Kim
   site: https://prosys.kaist.ac.kr/home/oojahooo
+  level: master
+
+- name: Changgong Lee
+  site: http://prosys.kaist.ac.kr/home/changgonglee/
+  level: master
+
+- name: Jaeseong Kwon
+  site: https://prosys.kaist.ac.kr
   level: master
