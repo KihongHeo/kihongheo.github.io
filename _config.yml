@@ -13,6 +13,8 @@ navigation:
     url: /talks.html
   - text: Recruitment
     url: /recruitment.html
+  - text: Calendar
+    url: /calendar.html
   - text: Blog
     url: https://prosys.kaist.ac.kr/posts/
   - text: PL-Wiki
