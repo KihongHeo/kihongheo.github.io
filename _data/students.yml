@@ -19,9 +19,25 @@
   level: master
 
 - name: Changgong Lee
-  site: http://prosys.kaist.ac.kr/home/changgonglee/
+  site: https://prosys.kaist.ac.kr/home/changgonglee/
   level: master
 
 - name: Jaeseong Kwon
-  site: https://prosys.kaist.ac.kr
+  site: https://doitman.kr
+  level: master
+
+- name: Dongjae Lee
+  site: https://prosys.kaist.ac.kr/home/dongjaelee/
+  level: master
+
+- name: Geon Park
+  site: https://prosys.kaist.ac.kr/home/geonpark/
+  level: master
+
+- name: Haejoon Park
+  site: https://prosys.kaist.ac.kr/home/haejoonpark/
+  level: master
+
+- name: Jaejoon Jang
+  site: https://prosys.kaist.ac.kr/home/jaehoonjang/
   level: master
