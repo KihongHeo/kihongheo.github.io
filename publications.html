@@ -12,15 +12,10 @@ logo_style: 'width: 280px; height: 70px;'
       {% if pub.type == 'conference' %}
         <li>{{pub.title}}<br>
           {% for author in pub.author %}
-            {% if author == "Kihong Heo" %}
-              {% assign bold = true %}
-            {% else %}
-              {% assign bold = false %}
-            {% endif %}
             {% if forloop.last %}
-              and {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %}
+              and {{ author }}
             {% else %}
-              {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %},
+              {{ author }},
             {% endif %}
           {% endfor %}
           {% if pub.award != nil %}
@@ -61,15 +56,10 @@ logo_style: 'width: 280px; height: 70px;'
       {% if pub.type == 'journal' %}
         <li>{{pub.title}}<br>
           {% for author in pub.author %}
-            {% if author == "Kihong Heo" %}
-              {% assign bold = true %}
-            {% else %}
-              {% assign bold = false %}
-            {% endif %}
             {% if forloop.last %}
-              and {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %}
+              and {{ author }}
             {% else %}
-              {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %},
+              {{ author }},
             {% endif %}
           {% endfor %}
           {% if pub.misc != nil %}
@@ -107,15 +97,10 @@ logo_style: 'width: 280px; height: 70px;'
       {% if pub.type == 'workshop' %}
         <li>{{pub.title}}<br>
           {% for author in pub.author %}
-            {% if author == "Kihong Heo" %}
-              {% assign bold = true %}
-            {% else %}
-              {% assign bold = false %}
-            {% endif %}
             {% if forloop.last %}
-              and {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %}
+              and {{ author }}
             {% else %}
-              {% if bold == true %}<b>{% endif %} {{ author }}{% if bold == true %}</b>{% endif %},
+              {{ author }},
             {% endif %}
           {% endfor %}
           <br>
