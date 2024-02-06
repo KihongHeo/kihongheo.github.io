@@ -9,6 +9,16 @@
   link: "https://conf.researchr.org/home/icse-2024"
 
 - title: "PC member"
+  venue: "SAS"
+  year: 2024
+  link:
+
+- title: "PC member"
+  venue: "LCTES"
+  year: 2024
+  link: "https://pldi24.sigplan.org/home/LCTES-2024"
+
+- title: "PC member"
   venue: "PLDI"
   year: 2023
   link: "https://pldi23.sigplan.org"
@@ -63,7 +73,7 @@
   year: 2020
   link: "https://2020.splashcon.org/home/tapas-2020"
 
-- title: "PC member"
+- title: "Others"
   venue: "PLDI (ERC)"
   year: 2019
   link: "https://conf.researchr.org/home/pldi-2019"
