@@ -19,5 +19,7 @@ navigation:
     url: https://prosys.kaist.ac.kr/posts/
   - text: PL-Wiki
     url: https://github.com/prosyslab/pl-wiki/wiki
+  - text: Open Turing
+    url: https://open-turing.github.io
   - text: ProsysLab
     url: https://prosys.kaist.ac.kr
