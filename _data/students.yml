@@ -8,11 +8,7 @@
 
 - name: Sujin Jang
   site: https://sujin0529.github.io
-  level: master
-
-- name: Jaeho Kim
-  site: https://prosys.kaist.ac.kr/home/oojahooo
-  level: master
+  level: phd
 
 - name: Changgong Lee
   site: https://prosys.kaist.ac.kr/home/changgonglee/
@@ -28,10 +24,6 @@
 
 - name: Geon Park
   site: https://prosys.kaist.ac.kr/home/geonpark/
-  level: master
-
-- name: Haejoon Park
-  site: https://prosys.kaist.ac.kr/home/haejoonpark/
   level: master
 
 - name: Jaehoon Jang
