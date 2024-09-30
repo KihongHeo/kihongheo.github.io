@@ -5,8 +5,6 @@ baseurl: ""
 navigation:
   - text: Home
     url: /
-  - text: Projects
-    url: /projects.html
   - text: Publications
     url: /publications.html
   - text: Talks
@@ -19,6 +17,8 @@ navigation:
     url: https://prosys.kaist.ac.kr/posts/
   - text: PL-Wiki
     url: https://github.com/prosyslab/pl-wiki/wiki
+  - text: Recursion World
+    url: https://recursion.kaist.ac.kr
   - text: Open Turing
     url: https://open-turing.github.io
   - text: ProsysLab
