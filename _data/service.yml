@@ -1,4 +1,10 @@
 - title: "PC member"
+  chair: "PC Co-Chair"
+  venue: "SOAP"
+  year: 2025
+  link: "https://pldi25.sigplan.org/home/SOAP-2025"
+
+- title: "PC member"
   venue: "ICSE"
   year: 2025
   link: "https://conf.researchr.org/home/icse-2025"

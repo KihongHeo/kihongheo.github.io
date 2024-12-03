@@ -12,7 +12,7 @@ logo_style: 'width: 280px; height: 70px;'
       Associate Professor<br>
       <a href="https://prosys.kaist.ac.kr">Programming Systems Laboratory</a><br>
       <a href="https://cs.kaist.ac.kr">School of Computing</a> / <a href="https://gsis.kaist.ac.kr">Graduate School of Information Security</a><br>
-      <a href="https://www.kaist.ac.kr">Korea Advanced Institute of Science and Technology (KAIST)</a><br>
+      <a href="https://www.kaist.ac.kr">KAIST</a><br>
       <div class="middle">
         <a href="docs/cv.pdf"><img src="icons/cv.png" width="25" /></a>&nbsp;
         <a href="https://dblp.uni-trier.de/pers/hd/h/Heo:Kihong"><img src="icons/dblp.png" width="25" /></a>&nbsp;
@@ -107,13 +107,13 @@ For more information about my research, see <a href="projects.html">projects</a>
   <li><a href="https://github.com/prosyslab-classroom/cs348-information-security">CS348: Introduction to Information Security</a>,
     <a href="https://sites.google.com/view/cs448/home">2021S</a>,
     <a href="https://sites.google.com/view/kaistcs348/home">2022S</a>,
-    2023S
+    2023S, 2025S
   </li>
   <li><a href="https://github.com/prosyslab-classroom/cs424-program-reasoning">CS424: Program Reasoning</a>,
     2022F, 2023F, 2024F
   </li>
   <li><a href="https://github.com/prosyslab-classroom/cs524-program-analysis">CS524: Program Analysis</a>,
-    2021F, 2022F, 2024S
+    2021F, 2022F, 2024S, 2025S
   </li>
   <li><a href="https://sites.google.com/view/cs448/home">IS511: Introduction to Information Security</a>,
     2021S
@@ -160,10 +160,13 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
-      {% if forloop.last %}
         <a href="{{ item.link }}">{{ item.venue }}</a>
+      {% if item.chair != nil %}
+        ({{ item.chair }})
+        {% endif %}
+      {% if forloop.last %}
       {% else %}
-        <a href="{{ item.link }}">{{ item.venue }}</a>,
+        ,
       {% endif %}
       {% endfor %}
     </li>
@@ -215,5 +218,5 @@ kihong.heo (at) kaist.ac.kr<br>
 +82-42-350-3581<br>
 Room 2321, N5<br>
 School of Computing<br>
-Korea Advanced Institute of Science and Technology<br>
+KAIST<br>
 291 Daehak-ro, Yuseong-gu, Daejeon 34141, Korea<br>
