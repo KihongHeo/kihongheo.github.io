@@ -10,14 +10,6 @@
   site: https://sujin0529.github.io
   level: phd
 
-- name: Changgong Lee
-  site: https://prosys.kaist.ac.kr/home/changgonglee/
-  level: master
-
-- name: Jaeseong Kwon
-  site: https://doitman.kr
-  level: master
-
 - name: Dongjae Lee
   site: https://prosys.kaist.ac.kr/home/dongjaelee/
   level: master
@@ -28,4 +20,12 @@
 
 - name: Jaehoon Jang
   site: https://prosys.kaist.ac.kr/home/jaehoonjang/
+  level: master
+
+- name: Bongjun Jang
+  site: https://prosys.kaist.ac.kr/home/bongjunjang/
+  level: master
+
+- name: Minsol Park
+  site: https://prosys.kaist.ac.kr/home/minsolpark/
   level: master

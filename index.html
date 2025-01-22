@@ -160,14 +160,7 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
-        <a href="{{ item.link }}">{{ item.venue }}</a>
-      {% if item.chair != nil %}
-        ({{ item.chair }})
-        {% endif %}
-      {% if forloop.last %}
-      {% else %}
-        ,
-      {% endif %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>{% if item.chair != nil %} ({{ item.chair }}){% endif %}{% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
     </li>
   {% endif %}
@@ -180,11 +173,7 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
-      {% if forloop.last %}
-        <a href="{{ item.link }}">{{ item.venue }}</a>
-      {% else %}
-        <a href="{{ item.link }}">{{ item.venue }}</a>,
-      {% endif %}
+        <a href="{{ item.link }}">{{ item.venue }}</a>{% if item.chair != nil %} ({{ item.chair }}){% endif %}{% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
     </li>
   {% endif %}
