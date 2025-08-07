@@ -1,106 +1,133 @@
-- title: "Others"
-  venue: "SAS"
-  chair: "AE Co-Chair"
-  year: 2025
-  link: "https://2025.splashcon.org/track/sas-2025-sas-artifact"
+- type: "Editorial Board"
+  title: "Associate Editor"
+  venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+  year: "2025-2028"
+  link: "https://dl.acm.org/journal/tosem/editorial-board"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   chair: "PC Co-Chair"
   venue: "SOAP"
   year: 2025
   link: "https://pldi25.sigplan.org/home/SOAP-2025"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "ICSE"
   year: 2025
   link: "https://conf.researchr.org/home/icse-2025"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "APLAS"
   year: 2025
   link: "https://conf.researchr.org/home/aplas-2025"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "Others"
+  venue: "SAS"
+  chair: "AE Co-Chair"
+  year: 2025
+  link: "https://2025.splashcon.org/track/sas-2025-sas-artifact"
+
+- type: "Conference Organization"
+  title: "PC member"
   venue: "ICSE"
   year: 2024
   link: "https://conf.researchr.org/home/icse-2024"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: OOPSLA
   year: 2024
   link: "https://2024.splashcon.org/track/splash-2024-oopsla"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "SAS"
   year: 2024
   link: "https://2024.splashcon.org/home/sas-2024"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "LCTES"
   year: 2024
   link: "https://pldi24.sigplan.org/home/LCTES-2024"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "PLDI"
   year: 2023
   link: "https://pldi23.sigplan.org"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "PLDI"
   year: 2022
   link: "https://pldi22.sigplan.org"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "POPL"
   year: 2022
   link: "https://popl22.sigplan.org"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "OOPSLA"
   year: 2022
   link: "https://2022.splashcon.org/track/splash-2022-oopsla"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "SAS"
   year: 2022
   link: "https://2022.splashcon.org/home/sas-2022"
 
-- title: "Others"
+- type: "Conference Organization"
+  title: "Others"
   venue: "FSE (SRC)"
   year: 2022
   link: "https://2022.esec-fse.org/track/fse-2022-student-research-competition"
 
-- title: "Others"
+- type: "Conference Organization"
+  title: "Others"
   venue: "ECOOP (Doctoral Symposium)"
   year: 2022
   link: "https://2022.ecoop.org/track/ecoop-2022-doctoral-symposium"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "APLAS"
   year: 2021
   link: "https://conf.researchr.org/home/aplas-2021"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "SYNT"
   year: 2021
   link: "https://workshops.inf.ed.ac.uk/SYNT2021/index.html"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "OCAML"
   year: 2021
   link: "https://icfp21.sigplan.org/home/ocaml-2021"
 
-- title: "PC member"
+- type: "Conference Organization"
+  title: "PC member"
   venue: "TAPAS"
   year: 2020
   link: "https://2020.splashcon.org/home/tapas-2020"
 
-- title: "Others"
+- type: "Conference Organization"
+  title: "Others"
   venue: "PLDI (ERC)"
   year: 2019
   link: "https://conf.researchr.org/home/pldi-2019"
 
-- title: "Others"
+- type: "Conference Organization"
+  title: "Others"
   venue: "ICSE (Virtualization Committee)"
   year: 2020
   link: "https://2020.icse-conferences.org"

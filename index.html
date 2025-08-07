@@ -158,10 +158,10 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
 {% assign year = 'now' | date: "%Y" %}
 {% assign next_year = year | plus: 2 %}
 <h3>Professional Activities</h3>
-<h5>Program Committee Members</h5>
+<h5>Program Committee</h5>
 <ul>
   {% for year in (2019..next_year) reversed %}
-  {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'PC member'"%}
+  {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.type == 'Conference Organization'"%}
   {% if filtered != empty %}
     <li>{{ year }}:
       {% for item in filtered %}
@@ -171,18 +171,16 @@ See <a href="https://prosys.kaist.ac.kr/members/">more</a>.
   {% endif %}
   {% endfor %}
 </ul>
-<h5>Others</h5>
+<h5>Editorial Board</h5>
 <ul>
-  {% for year in (2019..next_year) reversed %}
-  {% assign filtered = site.data.service | where_exp: "item", "item.year == year" | where_exp: "item", "item.title == 'Others'" %}
+  {% assign filtered = site.data.service | where_exp: "item", "item.type == 'Editorial Board'"%}
   {% if filtered != empty %}
-    <li>{{ year }}:
+    <li>
       {% for item in filtered %}
-        <a href="{{ item.link }}">{{ item.venue }}</a>{% if item.chair != nil %} ({{ item.chair }}){% endif %}{% if forloop.last %}{% else %},{% endif %}
+      <a href="{{ item.link }}">{{ item.venue }}</a>{% if item.chair != nil %} ({{ item.chair }}){% endif %}{% if forloop.last %}{% else %},{% endif %} {{ item.title }}
       {% endfor %}
     </li>
   {% endif %}
-  {% endfor %}
 </ul>
 
 <h3>Awards</h3>
