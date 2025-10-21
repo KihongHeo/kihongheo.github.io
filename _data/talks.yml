@@ -1,6 +1,11 @@
+- title: "Directed Program Analysis: from Suspicion to Witness"
+  venue: "Dagstuhl Seminar 25421"
+  date: "Oct 17, 2025"
+  slides: "dagstuhl25421.pdf"
+
 - title: "은은하게 퍼지는 쉬운전문용어와 소박한 공부"
   venue: "쉬운전문용어 포럼"
-  date: "12/19/2024"
+  date: "Dec 19, 2024"
   slides: "easy-word.pdf"
   korean: true
 
@@ -13,7 +18,7 @@
 
 - title: "Software Bloat: Problems and Automated Debloating Systems"
   venue: "Korean Computer System Society"
-  date: "02/02/2021"
+  date: "Feg 02, 2021"
   slides: "css21.pdf"
   korean: true
 
@@ -24,46 +29,46 @@
 
 - title: "Program Transformation for Reducing Software Complexity"
   venue: "Korea University"
-  date: "07/09/2018"
+  date: "Jul 9, 2018"
   slides: "chisel-ku.pdf"
 
 - title: "User-Guided Program Reasoning using Bayesian Inference"
   venue: "KAIST"
-  date: "07/06/2018"
+  date: "Jul 6, 2018"
   slides: "bingo-kaist.pdf"
 
 - title: "Interactive Alarm Ranking System using Bayesian Inference"
   venue: "Korea University"
-  date: "01/04/2018"
+  date: "Apr 1, 2018"
   slides: "bingo-ku.pdf"
 
 - title: "Machine-Learning-Guided Selectively Unsound Static Analysis"
   venue: "Naver"
-  date: "06/26/2017"
+  date: "Jun 26, 2017"
   slides: "icse17-naver.pdf"
   video: "https://youtu.be/71rReJrf_6Q"
   korean: true
 
 - title: "Selectively Sensitive Static Analysis by Impact Pre-analysis and Machine Learning"
   venue: "Ph.D. Defense"
-  date: "05/02/2017"
+  date: "May 2, 2017"
   slides: "thesis-slides.pdf"
   korean: true
 
 - title: "Inferbo: Infer-based buffer-overrun analyzer"
   venue: "Korea University"
-  date: "04/14/2017"
+  date: "Apr 14, 2017"
   slides: "inferbo.pdf"
   korean: true
 
 - title: "Inferbo: Infer-based buffer-overrun analyzer"
   venue: "KAIST"
-  date: "03/24/2017"
+  date: "Mar 24, 2017"
   slides: "inferbo.pdf"
   korean: true
 
 - title: "Selectively Sensitive Static Analysis by Impact Pre-analysis and Machine Learning"
   venue: '<a href="http://www.codemind.co.kr">Codemind</a>'
-  date: "02/20/2017"
+  date: "Feb 20, 2017"
   slides: "selective-codemind.pdf"
   korean: true
