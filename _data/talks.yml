@@ -1,3 +1,8 @@
+- title: "스탠드업 코미디, 개근상, 과거시험"
+  venue: "KAIST 전산학부 교수 워크샵"
+  date: "Jan 20, 2026"
+  slides: "education.pdf"
+
 - title: "Directed Program Analysis: from Suspicion to Witness"
   venue: "Dagstuhl Seminar 25421: Sound Static Program Analysis in Modern Software Engineering"
   date: "Oct 17, 2025"
