@@ -12,16 +12,12 @@
 
 - name: Dongjae Lee
   site: https://prosys.kaist.ac.kr/home/dongjaelee/
-  level: master
-
-- name: Geon Park
-  site: https://prosys.kaist.ac.kr/home/geonpark/
-  level: master
-
-- name: Jaehoon Jang
-  site: https://prosys.kaist.ac.kr/home/jaehoonjang/
-  level: master
+  level: phd
 
 - name: Bongjun Jang
   site: https://prosys.kaist.ac.kr/home/bongjunjang/
+  level: master
+
+- name: Hyunbin Kim
+  site: https://prosys.kaist.ac.kr/home/hyunbinkim/
   level: master
